@@ -285,7 +285,7 @@ grid-area: letra3;
     }
     @media(min-width: 375px){
         .w-50 {
-            width: 75% !important;
+            width: 95% !important;
         }
         .imgs img{
             border-radius: 2%;
@@ -297,13 +297,13 @@ grid-area: letra3;
             justify-content: space-evenly;
             
         }
-            .itemsserv img{
-            height: 300px;
-            width: 75%;
+        .itemsserv img {
+            height: 360px;
+            width: 93%;
             border-radius: 1%;
             margin-bottom: 2%;
             margin-top: 1%;
-            }
+        }
         nav img{
             width: 23%;
         }
@@ -317,7 +317,7 @@ grid-area: letra3;
             flex-direction: row;
             margin-bottom: 1%;
             margin-top: 3%;
-            font-size: 7px;
+            font-size: 8px;
         }
         h1{
             font-family: "Poetsen One", sans-serif;
@@ -340,6 +340,22 @@ grid-area: letra3;
                 color: #e63a3a;
                 border-color: #e63a3a;
             }
+            .espacionosotros{
+                display: flex;
+                flex-direction: column;
+            }
+            .espacionosotros div{
+                margin-top: 1%;
+                margin-bottom: 1%;
+            }
+            
+            .espacionosotros img{
+                    width: 100%;
+                    height: 250px;
+            } 
+            .espacionosotros p{
+                font-size: 8px;
+            }      
         }
 
     @media(min-width: 1024px){
@@ -402,6 +418,22 @@ grid-area: letra3;
             height: 610px;
             border-radius: 1%;
             }
+            .espacionosotros{
+                display: flex;
+                flex-direction: column;
+            }
+            .espacionosotros div{
+                margin-top: 3%;
+                margin-bottom: 5%;
+            }
+            
+            .espacionosotros img{
+                    width: 2000px;
+                    height: 950px;
+            }       
+            .espacionosotros p{
+                font-size: 15px;
+            }   
 }
 
 
