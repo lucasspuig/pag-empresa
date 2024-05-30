@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poetsen+One&display=swap');
+p{
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 49, 49);
+}
+
+main{
+    margin-top: 5%;
+}
+h1{
+    display: flex;
+    justify-content: end;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+ h1{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 1%;
+ }
+.nav-link{
+    color: white;
+}
+.navbar-toggler{
+    color: #e63a3a;
+    border-color: #e63a3a;
+}
+.navar{
+    background-color: #2b2b2b;
+}
+nav img{
+    width: 11%;
+}
+.botoncolor{
+ background-color: rgb(255, 255, 255);
+}
+.btn-primary{
+    margin-top: 20px;
+    color: white;
+    background-color: #e63a3a;
+    border: #e63a3a;
+}
+.inmensaje{
+    margin-top: 20px;
+}
+ion-icon{
+    margin-top: 10px;
+    color: #e63a3a;
+    font-size: 30px;
+}
+.lupabuscar{
+    font-size: 20px;
+    color: rgb(141, 140, 140);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+.ubicontact{
+display: flex;
+flex-direction: column;
+margin-left: 1%;
+}
+.grandcont{
+    font-size: 27px;
+    margin-bottom: 2%;
+}
+.chicocont{
+    font-size: 13px;
+}
+.inicioft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.inicioft img{
+width: 45%;
+height: 610px;
+border-radius: 1%;
+}
+.imgserv{
+    display: flex;
+    justify-content: center;
+}
+.w-50 {
+    width: 50% !important;
+}
+.imgs img{
+    border-radius: 2%;
+    margin-bottom: 2%;
+}
+
+.itemsserv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.itemsserv img{
+    height: 500px;
+    width: 32%;
+    border-radius: 1%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    
+}
+
+.espacioinicio p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+
+.obrass {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5%;
+}
+.espacionosotros{
+    display: flex;
+    flex-direction: column;
+}
+.espacionosotros div{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.espacionosotros img{
+        width: 2000px;
+        height: 950px;
+}       
+.grid5{
+    display: inline;
+
+ }
+.obrasgrid{
+    margin-right: 5%;
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    " letras1 imguno  imgdos"
+    "letra2 imgtres imgcuatro"
+    "letra3 imgcinco  imgocho"
+    "letra4 imgseis  imgsiete";
+    align-items: center;
+    justify-items: start;
+}
+.obrasgrid img{
+    border-radius: 1%;
+    height: 600px;
+    width:100%
+}
+.grid00{
+grid-area: letras1;
+}
+.grid01{
+    grid-area: letra2;
+}
+.grid02{
+grid-area: letra3;
+}
+.grid03{
+    grid-area: letra4;
+}
+.grid1 {
+  grid-area: imguno;  
+}
+.grid2 {
+    grid-area: imgdos;
+}
+.grid3 {
+    grid-area: imgtres;
+}
+.grid4 {
+    grid-area: imgcuatro;   
+}
+.grid5{
+    grid-area: imgcinco;
+}
+.grid6{
+    grid-area: imgocho;
+}
+.grid7{
+    grid-area: imgseis;
+}
+.grid8{
+    grid-area: imgsiete;
+}
+.ion {
+    font-size: 64px;
+  }
+
+    @media(min-width:320px){
+        .w-50 {
+            width: 75% !important;
+        }
+        .imgs img{
+            border-radius: 2%;
+            margin-bottom: 2%;
+        }
+        .itemsserv{
+            display: flex;
+            flex-direction: column;
+           align-items:center;
+            
+        }
+        .itemsserv img{
+            height: 200px;
+            width: 75%;
+            border-radius: 2%;
+            margin-bottom: 2%;
+            margin-top: 1%;
+            
+        }
+        nav img{
+            width: 20%;
+        }
+        ion-icon{
+            margin-top: 10px;
+            color: #e63a3a;
+            font-size: 15px;
+        }
+        .espacioinicio p{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 1%;
+            margin-top: 3%;
+            font-size: 5px;
+        }
+        h1{
+            font-family: "Poetsen One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin-right: 1%;
+            font-size: 80%;
+         }
+         .inicioft{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .inicioft img{
+            width: 79%;
+            height: 250px;
+            border-radius: 2%;
+            margin-top: 2%;
+            }
+            .navbar-toggler{
+                font-size: 43%;
+                color: #e63a3a;
+                border-color: #e63a3a;
+            }
+    
+    }
+    @media(min-width: 375px){
+        .w-50 {
+            width: 75% !important;
+        }
+        .imgs img{
+            border-radius: 2%;
+            margin-bottom: 2%;
+        }
+        .itemsserv{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+        }
+            .itemsserv img{
+            height: 300px;
+            width: 75%;
+            border-radius: 1%;
+            margin-bottom: 2%;
+            margin-top: 1%;
+            }
+        nav img{
+            width: 23%;
+        }
+        ion-icon{
+            margin-top: 10px;
+            color: #e63a3a;
+            font-size: 20px;
+        }
+        .espacioinicio p{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 1%;
+            margin-top: 3%;
+            font-size: 7px;
+        }
+        h1{
+            font-family: "Poetsen One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin-right: 1%;
+            font-size: 100%;
+         }
+         .inicioft{
+            display: flex;
+            flex-direction: column;
+        }
+        .inicioft img{
+            width: 80%;
+            height: 300px;
+            border-radius: 1%;
+            }
+            .navbar-toggler{
+                font-size: 66%;
+                color: #e63a3a;
+                border-color: #e63a3a;
+            }
+        }
+
+    @media(min-width: 1024px){
+            .imgserv{
+                display: flex;
+                justify-content: center;
+            }
+            .w-50 {
+                width: 50% !important;
+            }
+            .imgs img{
+                border-radius: 2%;
+                margin-bottom: 2%;
+            }
+            
+            .itemsserv{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                
+            }
+            .itemsserv img{
+                height: 500px;
+                width: 32%;
+                border-radius: 1%;
+                margin-bottom: 2%;
+                margin-top: 1%;
+                
+            }
+            nav img{
+                width: 11%;
+            }
+            ion-icon{
+                margin-top: 10px;
+                color: #e63a3a;
+                font-size: 35px;
+            }
+            .espacioinicio p{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 1%;
+                margin-top: 3%;
+                font-size: 20px;
+            }
+            h1{
+                font-family: "Poetsen One", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                margin-right: 1%;
+                font-size: 38px;
+             }
+             .inicioft{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+            .inicioft img{
+            width: 45%;
+            height: 610px;
+            border-radius: 1%;
+            }
+}
+
+
+
+
