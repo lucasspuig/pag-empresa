@@ -9,7 +9,7 @@ p{
 
 body{
     color: rgb(255, 255, 255);
-    background-color: rgb(52, 50, 50);
+    background-color: rgb(47, 47, 47);
 }
 
 main{
@@ -35,7 +35,7 @@ h1{
     border-color: #e63a3a;
 }
 .navar{
-    background-color: #0D0D0D;
+    background-color: #2b2b2b;
 }
 nav img{
     width: 11%;
@@ -147,8 +147,7 @@ border-radius: 1%;
 
  }
 .obrasgrid{
-    margin-right: 5%;
-    margin-top: 8%;
+    margin-right: 1%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -280,8 +279,90 @@ grid-area: letra3;
             } 
             .espacionosotros p{
                 font-size: 8px;
-            }      
-    
+            }   
+            .obrasgrid{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                grid-template-areas: 
+                " letras1 imguno  imgdos"
+                "letra2 imgtres imgcuatro"
+                "letra3 imgcinco  imgocho"
+                "letra4 imgseis  imgsiete";
+                align-items: center;
+                justify-items:flex-start;
+            }
+            div p{
+                margin-left: 5%;
+                font-size:8px;
+            }
+            .obrasgrid img{
+                border-radius: 1%;
+                height: 179px;
+                width: 100%;
+            }
+            .grid00{
+            grid-area: letras1;
+            }
+            .grid01{
+                grid-area: letra2;
+            }
+            .grid02{
+            grid-area: letra3;
+            }
+            .grid03{
+                grid-area: letra4;
+            }
+            .grid1 {
+              grid-area: imguno;  
+            }
+            .grid2 {
+                grid-area: imgdos;
+            }
+            .grid3 {
+                grid-area: imgtres;
+            }
+            .grid4 {
+                grid-area: imgcuatro;   
+            }
+            .grid5{
+                grid-area: imgcinco;
+            }
+            .grid6{
+                grid-area: imgocho;
+            }
+            .grid7{
+                grid-area: imgseis;
+            }
+            .grid8{
+                grid-area: imgsiete;
+            } 
+            div textarea{
+                font-size: 12px;
+            } 
+            iframe{
+               width: 50%;
+               height: 90px;
+            }
+            footer{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 41%;
+                align-items: end;
+            }
+            .ubicontact{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1%;
+            }
+            .grandcont{
+                font-size: 18px;
+                margin-bottom: 2%;
+            }
+            .chicocont{
+                font-size: 10px;
+            }
     }
     @media(min-width: 375px){
         .w-50 {
@@ -354,7 +435,7 @@ grid-area: letra3;
                     height: 250px;
             } 
             .espacionosotros p{
-                font-size: 8px;
+                font-size: 9px;
             }      
         }
 
@@ -434,6 +515,85 @@ grid-area: letra3;
             .espacionosotros p{
                 font-size: 15px;
             }   
+            .obrasgrid{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                grid-template-areas: 
+                " letras1 imguno  imgdos"
+                "letra2 imgtres imgcuatro"
+                "letra3 imgcinco  imgocho"
+                "letra4 imgseis  imgsiete";
+                align-items: center;
+                justify-items: flex-start;
+            }
+            div p{
+                font-size: 15px;
+            }
+            .obrasgrid img{
+                border-radius: 1%;
+                height: 600px;
+                width:100%
+            }
+            .grid00{
+            grid-area: letras1;
+            }
+            .grid01{
+                grid-area: letra2;
+            }
+            .grid02{
+            grid-area: letra3;
+            }
+            .grid03{
+                grid-area: letra4;
+            }
+            .grid1 {
+              grid-area: imguno;  
+            }
+            .grid2 {
+                grid-area: imgdos;
+            }
+            .grid3 {
+                grid-area: imgtres;
+            }
+            .grid4 {
+                grid-area: imgcuatro;   
+            }
+            .grid5{
+                grid-area: imgcinco;
+            }
+            .grid6{
+                grid-area: imgocho;
+            }
+            .grid7{
+                grid-area: imgseis;
+            }
+            .grid8{
+                grid-area: imgsiete;
+            }
+            iframe{
+                width:30%;
+                height: 100px;
+            }
+            footer{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 8%;
+                align-items: end;
+            }
+            .ubicontact{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1%;
+            }
+            .grandcont{
+                font-size: 27px;
+                margin-bottom: 2%;
+            }
+            .chicocont{
+                font-size: 15px;
+            }
 }
 
 
