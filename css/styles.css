@@ -297,6 +297,15 @@ grid-area: letra3;
                 margin-left: 5%;
                 font-size:8px;
             }
+            .obrass p{
+                font-size: 6px;
+            }
+            .obrass {
+                display: flex;
+                flex-direction: row;
+                margin-top: 2%;
+
+            }
             .obrasgrid img{
                 border-radius: 1%;
                 height: 179px;
@@ -532,6 +541,16 @@ grid-area: letra3;
             .obrasgrid p{
                 font-size: 18px;
             }
+            .obrass p{
+                font-size: 15px;
+
+            }
+            .obrass {
+                display: flex;
+                flex-direction: row-reverse;
+                margin-right: 5%;
+                margin-top: 0%;
+            }
             .obrasgrid img{
                 border-radius: 1%;
                 height: 600px;
@@ -587,7 +606,6 @@ grid-area: letra3;
             .ubicontact{
             display: flex;
             flex-direction: column;
-            
             }
             .grandcont{
                 font-size: 27px;
