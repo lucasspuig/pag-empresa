@@ -351,8 +351,8 @@ grid-area: letra3;
                 font-size: 12px;
             } 
             iframe{
-               width: 50%;
-               height: 90px;
+                width: 73%;
+                height: 88px;
             }
             footer{
                 display: flex;
@@ -543,7 +543,6 @@ grid-area: letra3;
             }
             .obrass p{
                 font-size: 15px;
-
             }
             .obrass {
                 display: flex;
