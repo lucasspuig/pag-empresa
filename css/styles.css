@@ -1,620 +1,208 @@
-@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Poetsen+One&display=swap');
-p{
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
+body {
+  color: rgb(255, 255, 255);
+  background-color: rgb(50, 49, 49);
+}
+body p {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
-body{
-    color: rgb(255, 255, 255);
-    background-color: rgb(47, 47, 47);
+main {
+  margin-top: 5%;
+}
+main h1 {
+  display: flex;
+  justify-content: end;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+main h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 1%;
+}
+main .ubicontact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+}
+main .grandcont {
+  font-size: 27px;
+  margin-bottom: 2%;
+}
+main .inmensaje {
+  margin-top: 20px;
+}
+main .btn-primary {
+  margin-top: 20px;
+  color: white;
+  background-color: #e63a3a;
+  border: #e63a3a;
+  --bs-btn-hover-bg:#7c2b2b;
+  --bs-btn-hover-border-color:#7c2b2b;
+}
+main .chicocont {
+  font-size: 13px;
+}
+main .inicioft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+main .inicioft img {
+  width: 45%;
+  height: 610px;
+  border-radius: 1%;
+}
+main .imgserv {
+  display: flex;
+  justify-content: center;
+}
+main .w-50 {
+  width: 50% !important;
+}
+main .imgs img {
+  border-radius: 2%;
+  margin-bottom: 2%;
+}
+main .itemsserv {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .itemsserv img {
+  height: 500px;
+  width: 32%;
+  border-radius: 1%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+main .espacioinicio p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+main .grid5 {
+  display: inline;
+}
+main .obrasgrid {
+  margin-right: 5%;
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: " letras1 imguno  imgdos" "letra2 imgtres imgcuatro" "letra3 imgcinco  imgocho" "letra4 imgseis  imgsiete";
+  align-items: center;
+  justify-items: start;
+}
+main .obrasgrid img {
+  border-radius: 1%;
+  height: 600px;
+  width: 100%;
+}
+main .grid00 {
+  grid-area: letras1;
+}
+main .grid01 {
+  grid-area: letra2;
+}
+main .grid02 {
+  grid-area: letra3;
+}
+main .grid03 {
+  grid-area: letra4;
+}
+main .grid1 {
+  grid-area: imguno;
+}
+main .grid2 {
+  grid-area: imgdos;
+}
+main .grid3 {
+  grid-area: imgtres;
+}
+main .grid4 {
+  grid-area: imgcuatro;
+}
+main .grid5 {
+  grid-area: imgcinco;
+}
+main .grid6 {
+  grid-area: imgocho;
+}
+main .grid7 {
+  grid-area: imgseis;
+}
+main .grid8 {
+  grid-area: imgsiete;
+}
+main .ion {
+  font-size: 64px;
+}
+main .obrass {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 5%;
+}
+main .espacionosotros {
+  display: flex;
+  flex-direction: column;
+}
+main .espacionosotros div {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+main .espacionosotros img {
+  width: 2000px;
+  height: 950px;
 }
 
-main{
-    margin-top: 5%;
+.navar {
+  background-color: #2b2b2b;
 }
-h1{
-    display: flex;
-    justify-content: end;
-    margin-top: 3%;
-    margin-bottom: 3%;
+.navar .nav-link {
+  color: white;
 }
- h1{
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-right: 1%;
- }
-.nav-link{
-    color: white;
+.navar .navbar-toggler {
+  color: #e63a3a;
+  border-color: #e63a3a;
 }
-.navbar-toggler{
-    color: #e63a3a;
-    border-color: #e63a3a;
+.navar nav img {
+  width: 11%;
 }
-.navar{
-    background-color: #2b2b2b;
+.navar .botoncolor {
+  background-color: rgb(255, 255, 255);
 }
-nav img{
-    width: 11%;
+.navar .btn-primary {
+  margin-top: 20px;
+  color: white;
+  background-color: #e63a3a;
+  border: #e63a3a;
 }
-.botoncolor{
- background-color: rgb(255, 255, 255);
+.navar ion-icon {
+  margin-top: 10px;
+  color: #e63a3a;
+  font-size: 30px;
 }
-.btn-primary{
-    margin-top: 20px;
-    color: white;
-    background-color: #e63a3a;
-    border: #e63a3a;
-}
-.inmensaje{
-    margin-top: 20px;
-}
-ion-icon{
-    margin-top: 10px;
-    color: #e63a3a;
-    font-size: 30px;
-}
-.lupabuscar{
-    font-size: 20px;
-    color: rgb(141, 140, 140);
-}
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 8%;
-}
-.ubicontact{
-display: flex;
-flex-direction: column;
-margin-left: 1%;
-}
-.grandcont{
-    font-size: 27px;
-    margin-bottom: 2%;
-}
-.chicocont{
-    font-size: 13px;
-}
-.inicioft{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.inicioft img{
-width: 45%;
-height: 610px;
-border-radius: 1%;
-}
-.imgserv{
-    display: flex;
-    justify-content: center;
-}
-.w-50 {
-    width: 50% !important;
-}
-.imgs img{
-    border-radius: 2%;
-    margin-bottom: 2%;
+.navar .lupabuscar {
+  font-size: 20px;
+  color: rgb(141, 140, 140);
 }
 
-.itemsserv{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8%;
 }
-.itemsserv img{
-    height: 500px;
-    width: 32%;
-    border-radius: 1%;
-    margin-bottom: 2%;
-    margin-top: 1%;
-    
+footer ion-icon {
+  margin-top: 10px;
+  color: #e63a3a;
+  font-size: 30px;
 }
 
-.espacioinicio p{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 1%;
-    margin-top: 3%;
-}
-
-.obrass {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-right: 5%;
-}
-.espacionosotros{
-    display: flex;
-    flex-direction: column;
-}
-.espacionosotros div{
-    margin-top: 3%;
-    margin-bottom: 5%;
-}
-
-.espacionosotros img{
-        width: 2000px;
-        height: 950px;
-}       
-.grid5{
-    display: inline;
-
- }
-.obrasgrid{
-    margin-right: 1%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: 
-    " letras1 imguno  imgdos"
-    "letra2 imgtres imgcuatro"
-    "letra3 imgcinco  imgocho"
-    "letra4 imgseis  imgsiete";
-    align-items: center;
-    justify-items: center;
-}
-.obrasgrid img{
-    border-radius: 1%;
-    height: 600px;
-    width:100%
-}
-.grid00{
-grid-area: letras1;
-}
-.grid01{
-    grid-area: letra2;
-}
-.grid02{
-grid-area: letra3;
-}
-.grid03{
-    grid-area: letra4;
-}
-.grid1 {
-  grid-area: imguno;  
-}
-.grid2 {
-    grid-area: imgdos;
-}
-.grid3 {
-    grid-area: imgtres;
-}
-.grid4 {
-    grid-area: imgcuatro;   
-}
-.grid5{
-    grid-area: imgcinco;
-}
-.grid6{
-    grid-area: imgocho;
-}
-.grid7{
-    grid-area: imgseis;
-}
-.grid8{
-    grid-area: imgsiete;
-}
-.ion {
-    font-size: 64px;
-  }
-
-    @media(min-width:320px){
-        .w-50 {
-            width: 93% !important;
-        }
-        .imgs img{
-            border-radius: 2%;
-            margin-bottom: 2%;
-        }
-        .itemsserv{
-            display: flex;
-            flex-direction: column;
-           align-items:center;
-            
-        }
-        .itemsserv img{
-            height: 265px;
-            width: 93%;
-            border-radius: 2%;
-            margin-bottom: 2%;
-            margin-top: 1%;
-            
-        }
-        nav img{
-            width: 20%;
-        }
-        ion-icon{
-            margin-top: 5%;
-            color: #e63a3a;
-            font-size: 25px;
-        }
-        .espacioinicio p{
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 1%;
-            margin-top: 3%;
-            font-size: 6px;
-        }
-        h1{
-            font-family: "Poetsen One", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            margin-right: 1%;
-            font-size: 90%;
-         }
-         .inicioft{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .inicioft img{
-            width: 90%;
-            height: 260px;
-            border-radius: 2%;
-            margin-top: 2%;
-            }
-            .navbar-toggler{
-                font-size: 43%;
-                color: #e63a3a;
-                border-color: #e63a3a;
-            }
-            .espacionosotros{
-                display: flex;
-                flex-direction: column;
-            }
-            .espacionosotros div{
-                margin-top: 1%;
-                margin-bottom: 1%;
-            }
-            
-            .espacionosotros img{
-                    width: 100%;
-                    height: 250px;
-            } 
-            .espacionosotros p{
-                font-size: 8px;
-                margin-left: 2%;
-            }   
-            .obrasgrid{
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(4, 1fr);
-                grid-template-areas: 
-                " letras1 imguno  imgdos"
-                "letra2 imgtres imgcuatro"
-                "letra3 imgcinco  imgocho"
-                "letra4 imgseis  imgsiete";
-                align-items: center;
-                justify-items:flex-start;
-            }
-            .obrasgrid p{
-                margin-left: 5%;
-                font-size:8px;
-            }
-            .obrass p{
-                font-size: 6px;
-            }
-            .obrass {
-                display: flex;
-                flex-direction: row;
-                margin-top: 2%;
-
-            }
-            .obrasgrid img{
-                border-radius: 1%;
-                height: 179px;
-                width: 100%;
-            }
-            .grid00{
-            grid-area: letras1;
-            }
-            .grid01{
-                grid-area: letra2;
-            }
-            .grid02{
-            grid-area: letra3;
-            }
-            .grid03{
-                grid-area: letra4;
-            }
-            .grid1 {
-              grid-area: imguno;  
-            }
-            .grid2 {
-                grid-area: imgdos;
-            }
-            .grid3 {
-                grid-area: imgtres;
-            }
-            .grid4 {
-                grid-area: imgcuatro;   
-            }
-            .grid5{
-                grid-area: imgcinco;
-            }
-            .grid6{
-                grid-area: imgocho;
-            }
-            .grid7{
-                grid-area: imgseis;
-            }
-            .grid8{
-                grid-area: imgsiete;
-            } 
-            div textarea{
-                font-size: 12px;
-            } 
-            iframe{
-                width: 73%;
-                height: 88px;
-            }
-            footer{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                margin-top: 41%;
-                align-items: end;
-            }
-            .ubicontact{
-            display: flex;
-            flex-direction: column;
-            margin-left: 1%;
-            }
-            .grandcont{
-                font-size: 18px;
-                margin-bottom: 2%;
-            }
-            .chicocont{
-                font-size: 10px;
-            }
-    }
-    @media(min-width: 375px){
-        .w-50 {
-            width: 95% !important;
-        }
-        .imgs img{
-            border-radius: 2%;
-            margin-bottom: 2%;
-        }
-        .itemsserv{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            
-        }
-        .itemsserv img {
-            height: 360px;
-            width: 93%;
-            border-radius: 1%;
-            margin-bottom: 2%;
-            margin-top: 1%;
-        }
-        nav img{
-            width: 23%;
-        }
-        ion-icon{
-            margin-top: 10px;
-            color: #e63a3a;
-            font-size: 28px;
-        }
-        .espacioinicio p{
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 1%;
-            margin-top: 3%;
-            font-size: 8px;
-        }
-        h1{
-            font-family: "Poetsen One", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            margin-right: 1%;
-            font-size: 100%;
-         }
-         .inicioft{
-            display: flex;
-            flex-direction: column;
-        }
-        .inicioft img{
-            width: 80%;
-            height: 300px;
-            border-radius: 1%;
-            }
-            .navbar-toggler{
-                font-size: 66%;
-                color: #e63a3a;
-                border-color: #e63a3a;
-            }
-            .espacionosotros{
-                display: flex;
-                flex-direction: column;
-            }
-            .espacionosotros div{
-                margin-top: 1%;
-                margin-bottom: 1%;
-            }
-            
-            .espacionosotros img{
-                    width: 100%;
-                    height: 250px;
-            } 
-            .espacionosotros p{
-                font-size: 8px;
-            }      
-        }
-
-    @media(min-width: 1024px){
-            .imgserv{
-                display: flex;
-                justify-content: center;
-            }
-            .w-50 {
-                width: 50% !important;
-            }
-            .imgs img{
-                border-radius: 2%;
-                margin-bottom: 2%;
-            }
-            
-            .itemsserv{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-                
-            }
-            .itemsserv img{
-                height: 500px;
-                width: 32%;
-                border-radius: 1%;
-                margin-bottom: 2%;
-                margin-top: 1%;
-                
-            }
-            nav img{
-                width: 11%;
-            }
-            ion-icon{
-                margin-top: 10px;
-                color: #e63a3a;
-                font-size: 35px;
-            }
-            .espacioinicio p{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                margin-bottom: 1%;
-                margin-top: 3%;
-                font-size: 20px;
-            }
-            h1{
-                font-family: "Poetsen One", sans-serif;
-                font-weight: 400;
-                font-style: normal;
-                margin-right: 1%;
-                font-size: 38px;
-             }
-             .inicioft{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-            }
-            .inicioft img{
-            width: 45%;
-            height: 610px;
-            border-radius: 1%;
-            }
-            .espacionosotros{
-                display: flex;
-                flex-direction: column;
-            }
-            .espacionosotros div{
-                margin-top: 3%;
-                margin-bottom: 5%;
-            }
-            
-            .espacionosotros img{
-                    width: 2000px;
-                    height: 950px;
-            }       
-            .espacionosotros p{
-                font-size: 15px;
-                margin-left: 1%;
-            }   
-            .obrasgrid{
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-rows: repeat(4, 1fr);
-                grid-template-areas: 
-                " letras1 imguno  imgdos"
-                "letra2 imgtres imgcuatro"
-                "letra3 imgcinco  imgocho"
-                "letra4 imgseis  imgsiete";
-                align-items: center;
-                justify-items: flex-start;
-            }
-            .obrasgrid p{
-                font-size: 18px;
-            }
-            .obrass p{
-                font-size: 15px;
-            }
-            .obrass {
-                display: flex;
-                flex-direction: row-reverse;
-                margin-right: 5%;
-                margin-top: 0%;
-            }
-            .obrasgrid img{
-                border-radius: 1%;
-                height: 600px;
-                width:100%
-            }
-            .grid00{
-            grid-area: letras1;
-            }
-            .grid01{
-                grid-area: letra2;
-            }
-            .grid02{
-            grid-area: letra3;
-            }
-            .grid03{
-                grid-area: letra4;
-            }
-            .grid1 {
-              grid-area: imguno;  
-            }
-            .grid2 {
-                grid-area: imgdos;
-            }
-            .grid3 {
-                grid-area: imgtres;
-            }
-            .grid4 {
-                grid-area: imgcuatro;   
-            }
-            .grid5{
-                grid-area: imgcinco;
-            }
-            .grid6{
-                grid-area: imgocho;
-            }
-            .grid7{
-                grid-area: imgseis;
-            }
-            .grid8{
-                grid-area: imgsiete;
-            }
-            iframe{
-                width:30%;
-                height: 100px;
-            }
-            footer{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                margin-top: 8%;
-                align-items: end;
-            }
-            .ubicontact{
-            display: flex;
-            flex-direction: column;
-            }
-            .grandcont{
-                font-size: 27px;
-                margin-bottom: 2%;
-            }
-            .chicocont{
-                font-size: 15px;
-            }
-}
-
-
-
-
+/*# sourceMappingURL=styles.css.map */
