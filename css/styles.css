@@ -94,7 +94,7 @@ footer ion-icon {
 }
 
 .w-50 {
-  width: 50% !important;
+  width: 93% !important;
 }
 
 .imgs img {
@@ -477,7 +477,7 @@ footer ion-icon {
     justify-content: center;
   }
   .w-50 {
-    width: 50% !important;
+    width: 55% !important;
   }
   .imgs img {
     border-radius: 2%;
@@ -489,8 +489,8 @@ footer ion-icon {
     justify-content: space-evenly;
   }
   .itemsserv img {
-    height: 500px;
-    width: 32%;
+    height: 555px;
+    width: 33%;
     border-radius: 1%;
     margin-bottom: 2%;
     margin-top: 1%;
