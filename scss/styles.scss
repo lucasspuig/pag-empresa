@@ -2,11 +2,11 @@ $coloriconos:#e63a3a;
 $colorbody:rgb(50, 49, 49);
 $colornav: #2b2b2b;
 $colorhoverenviar:#ff0404;
-
+$paletacolores:white,rgb(141, 140, 140);
 
 
 body{
-    color: rgb(255, 255, 255);
+    color: nth($paletacolores, 1);
     background-color: $colorbody;
     p{
         font-family: "Platypi", serif;
@@ -33,7 +33,7 @@ body{
 .navar{
     background-color: $colornav;
     .nav-link{
-        color: white;
+        color: nth($paletacolores, 1);
     }
     .navbar-toggler{
         color: $coloriconos;
@@ -43,11 +43,11 @@ body{
         width: 11%;
     }
     .botoncolor{
-     background-color: rgb(255, 255, 255);
+     background-color:nth($paletacolores, 1);
     }
     .btn-primary{
         margin-top: 20px;
-        color: white;
+        color: nth($paletacolores, 1);
         background-color: $coloriconos;
         border: $coloriconos;
     }
@@ -58,7 +58,7 @@ body{
     }
     .lupabuscar{
         font-size: 20px;
-        color: rgb(141, 140, 140);
+        color: nth($paletacolores, 2);
     }
 }
 footer{

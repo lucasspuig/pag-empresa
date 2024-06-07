@@ -1,5 +1,5 @@
 body {
-  color: rgb(255, 255, 255);
+  color: white;
   background-color: rgb(50, 49, 49);
 }
 body p {
@@ -39,7 +39,7 @@ main h1 {
   width: 11%;
 }
 .navar .botoncolor {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 .navar .btn-primary {
   margin-top: 20px;

@@ -25,7 +25,7 @@
     }
     ion-icon{
         margin-top: 5%;
-        color: #e63a3a;
+        color: $coloriconos;
         font-size: 25px;
     }
     .espacioinicio p{
@@ -55,8 +55,8 @@
         }
         .navbar-toggler{
             font-size: 43%;
-            color: #e63a3a;
-            border-color: #e63a3a;
+            color: $coloriconos;
+            border-color: $coloriconos;
         }
         .espacionosotros{
             display: flex;
@@ -194,7 +194,7 @@
     }
     ion-icon{
         margin-top: 10px;
-        color: #e63a3a;
+        color: $coloriconos;
         font-size: 28px;
     }
     .espacioinicio p{
@@ -222,8 +222,8 @@
         }
         .navbar-toggler{
             font-size: 66%;
-            color: #e63a3a;
-            border-color: #e63a3a;
+            color: $coloriconos;
+            border-color: $coloriconos;
         }
         .espacionosotros{
             display: flex;
@@ -275,7 +275,7 @@
         }
         ion-icon{
             margin-top: 10px;
-            color: #e63a3a;
+            color: $coloriconos;
             font-size: 35px;
         }
         .espacioinicio p{
