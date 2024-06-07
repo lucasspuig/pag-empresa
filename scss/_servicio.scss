@@ -1,0 +1,25 @@
+.imgserv{
+    display: flex;
+    justify-content: center;
+}
+.w-50 {
+    width: 50% !important;
+}
+.imgs img{
+    border-radius: 2%;
+    margin-bottom: 2%;
+}
+
+.itemsserv{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.itemsserv img{
+    height: 500px;
+    width: 32%;
+    border-radius: 1%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    
+}

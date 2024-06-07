@@ -1,0 +1,68 @@
+.grid5{
+    display: inline;
+
+ }
+.obrasgrid{
+    margin-right: 5%;
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    " letras1 imguno  imgdos"
+    "letra2 imgtres imgcuatro"
+    "letra3 imgcinco  imgocho"
+    "letra4 imgseis  imgsiete";
+    align-items: center;
+    justify-items: start;
+}
+.obrasgrid img{
+    border-radius: 1%;
+    height: 600px;
+    width:100%
+}
+.grid00{
+grid-area: letras1;
+}
+.grid01{
+    grid-area: letra2;
+}
+.grid02{
+grid-area: letra3;
+}
+.grid03{
+    grid-area: letra4;
+}
+.grid1 {
+  grid-area: imguno;  
+}
+.grid2 {
+    grid-area: imgdos;
+}
+.grid3 {
+    grid-area: imgtres;
+}
+.grid4 {
+    grid-area: imgcuatro;   
+}
+.grid5{
+    grid-area: imgcinco;
+}
+.grid6{
+    grid-area: imgocho;
+}
+.grid7{
+    grid-area: imgseis;
+}
+.grid8{
+    grid-area: imgsiete;
+}
+.ion {
+    font-size: 64px;
+  }
+
+.obrass {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5%;
+}

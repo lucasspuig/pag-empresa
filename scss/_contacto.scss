@@ -1,0 +1,24 @@
+.ubicontact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    }
+    .grandcont{
+        font-size: 27px;
+        margin-bottom: 2%;
+    }
+    .inmensaje{
+        margin-top: 20px;
+    }
+    .btn-primary{
+        margin-top: 20px;
+        color: white;
+        background-color: $coloriconos;
+        border: $coloriconos;
+        --bs-btn-hover-bg:#7c2b2b;
+        --bs-btn-hover-border-color:#7c2b2b;
+
+    }
+    .chicocont{
+        font-size: 13px;
+    }
