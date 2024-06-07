@@ -24,6 +24,9 @@ main h1 {
   font-style: normal;
   margin-right: 1%;
 }
+main h1:hover {
+  color: #e63a3a;
+}
 
 .navar {
   background-color: #2b2b2b;
@@ -36,7 +39,7 @@ main h1 {
   border-color: #e63a3a;
 }
 .navar nav img {
-  width: 11%;
+  width: 10%;
 }
 .navar .botoncolor {
   background-color: white;
