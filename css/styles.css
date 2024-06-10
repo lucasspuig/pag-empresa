@@ -211,7 +211,7 @@ footer ion-icon:hover {
 }
 
 .espacionosotros img {
-  width: 2000px;
+  width: 100%;
   height: 950px;
 }
 
@@ -543,7 +543,7 @@ footer ion-icon:hover {
     margin-bottom: 5%;
   }
   .espacionosotros img {
-    width: 2000px;
+    width: 100%;
     height: 950px;
   }
   .espacionosotros p {
