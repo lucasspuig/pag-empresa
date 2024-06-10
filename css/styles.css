@@ -59,6 +59,9 @@ main h1:hover {
   font-size: 20px;
   color: rgb(141, 140, 140);
 }
+.navar ul:hover {
+  color: #e63a3a;
+}
 
 footer {
   display: flex;
@@ -69,6 +72,9 @@ footer {
 footer ion-icon {
   margin-top: 10px;
   color: #e63a3a;
+}
+footer ion-icon:hover {
+  color: rgba(34, 29, 29, 0.9098039216);
 }
 
 .inicioft {

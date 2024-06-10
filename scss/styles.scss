@@ -63,6 +63,9 @@ body{
         font-size: 20px;
         color: nth($paletacolores, 2);
     }
+   ul:hover{
+    color: #e63a3a;
+   }
 }
 footer{
     display: flex;
@@ -72,6 +75,9 @@ footer{
     ion-icon{
         margin-top: 10px;
         color: $coloriconos;
+    }
+    ion-icon:hover{
+        color: #221d1de8
     }
 }
 @import"inicio";
