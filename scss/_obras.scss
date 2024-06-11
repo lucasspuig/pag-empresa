@@ -3,8 +3,8 @@
 
  }
 .obrasgrid{
-    margin-right: 5%;
-    margin-top: 8%;
+    margin-right: 2%;
+    margin-top: 1%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -64,5 +64,8 @@ grid-area: letra3;
 .obrass {
     display: flex;
     flex-direction: row-reverse;
-    margin-right: 5%;
+}
+.obrasgrid{
+    margin-top: 2%;
+    margin-right: 2%;
 }
