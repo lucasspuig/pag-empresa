@@ -278,6 +278,9 @@
             color: $coloriconos;
             font-size: 35px;
         }
+        div textarea{
+            font-size: 17px;
+        }
         .espacionosotros p{
             font-size: 19px;
             margin-left: 1%;
@@ -298,7 +301,7 @@
          }
          .espacioinicio p{
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             font-size: 15px;
         }
          .inicioft{

@@ -514,6 +514,9 @@ footer ion-icon:hover {
     color: #e63a3a;
     font-size: 35px;
   }
+  div textarea {
+    font-size: 17px;
+  }
   .espacionosotros p {
     font-size: 19px;
     margin-left: 1%;
@@ -534,7 +537,7 @@ footer ion-icon:hover {
   }
   .espacioinicio p {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 15px;
   }
   .inicioft {
