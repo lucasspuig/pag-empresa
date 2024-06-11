@@ -278,12 +278,16 @@
             color: $coloriconos;
             font-size: 35px;
         }
+        .espacionosotros p{
+            font-size: 19px;
+            margin-left: 1%;
+        }   
         .espacioinicio p{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             margin-bottom: 1%;
-            margin-top: 3%;
+            margin-top: 3%;  
         }
         h1{
             font-family: "Poetsen One", sans-serif;
