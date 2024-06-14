@@ -28,6 +28,15 @@
         color: $coloriconos;
         font-size: 25px;
     }
+    .coppy1{
+        color: rgb(112, 111, 111);
+        font-size: 0px;
+    }
+    .coppy{
+        color: rgb(112, 111, 111);
+        padding-right: 1%;
+        font-size: 8px;
+    }
     .espacioinicio p{
         display: flex;
         flex-direction: row;
@@ -145,7 +154,7 @@
             font-size: 12px;
         } 
         iframe{
-            width: 73%;
+            width: 60%;
             height: 88px;
         }
         footer{
@@ -282,9 +291,15 @@
             color: $coloriconos;
             font-size: 35px;
         }
+        .coppy1{
+            color: rgb(112, 111, 111);
+           font-size: 16px;
+
+        }
         .coppy{
             color: rgb(112, 111, 111);
             padding-right: 1%;
+            font-size: 16px;
         }
         div textarea{
             font-size: 17px;
