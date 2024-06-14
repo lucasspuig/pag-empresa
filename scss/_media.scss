@@ -249,7 +249,11 @@
             justify-content: center;
         }
         .w-50 {
-            width: 55% !important;
+            width: 45% !important;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+            color: red; /* Cambia el color a rojo */
         }
         .imgs img{
             border-radius: 2%;
@@ -277,6 +281,10 @@
             margin-top: 10px;
             color: $coloriconos;
             font-size: 35px;
+        }
+        .coppy{
+            color: rgb(112, 111, 111);
+            padding-right: 1%;
         }
         div textarea{
             font-size: 17px;
