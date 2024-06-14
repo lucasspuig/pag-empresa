@@ -6,20 +6,36 @@
         border-radius: 2%;
         margin-bottom: 2%;
     }
-    .itemsserv{
+    .imgserv{
         display: flex;
         flex-direction: column;
        align-items:center;
         
     }
-    .itemsserv img{
-        height: 265px;
-        width: 93%;
-        border-radius: 2%;
-        margin-bottom: 2%;
-        margin-top: 1%;
-        
+    .card p{
+        font-size: 10px;
     }
+    .card{
+        background-color: $colornav;
+        margin: 19px;
+        width: 18rem;
+     }
+     .card:hover{
+        transform: scale(1.1);
+     }
+     a{
+        color: #e63a3a;
+        list-style-type:none;
+        color: #e63a3a;
+        text-decoration: none;
+        font-family: "Poetsen One", sans-serif;
+         font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+     }
+     a:hover{
+        color: brown;
+     }
     nav img{
         width: 25%;
     }
@@ -42,7 +58,7 @@
         flex-direction: row;
         margin-bottom: 1%;
         margin-top: 3%;
-        font-size: 6px;
+        font-size: 10px;
     }
     h1{
         font-family: "Poetsen One", sans-serif;
@@ -280,15 +296,10 @@
         .w-50 {
             width: 45% !important;
         }
-        .carousel-control-prev,
-        .carousel-control-next {
-            color: red; /* Cambia el color a rojo */
-        }
         .imgs img{
             border-radius: 2%;
             margin-bottom: 2%;
         }
-        
         .itemsserv{
             display: flex;
             flex-direction: row;
@@ -482,5 +493,35 @@
              }
              h1:hover{
                color:$coloriconos;
+             }
+             .imgserv{
+                display: flex;
+               flex-direction: row;
+            }
+             .card{
+                background-color: $colornav;
+                margin: 19px;
+                width: 60rem;
+             }
+             .card p{
+                font-size: 16px;
+               display: flex;
+               flex-direction: row;
+             }
+             .card:hover{
+                transform: scale(1.1);
+             }
+             a{
+                color: #e63a3a;
+                list-style-type:none;
+                color: #e63a3a;
+                text-decoration: none;
+                font-family: "Poetsen One", sans-serif;
+                 font-weight: 400;
+                font-style: normal;
+                font-size: 20px;
+             }
+             a:hover{
+                color: brown;
              }
 }
