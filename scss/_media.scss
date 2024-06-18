@@ -361,8 +361,9 @@
          }
          .espacioinicio p{
             display: flex;
-            justify-content: flex-start;
+            justify-content: start;
             font-size: 15px;
+            padding-left: 2%;
         }
          .inicioft{
             display: flex;
@@ -373,6 +374,12 @@
         width: 45%;
         height: 610px;
         border-radius: 1%;
+        }
+        .inicioft img:hover{
+            transform: scale(01.01);
+        }
+        .nosotros{
+           background-color:$colornav;
         }
         .espacionosotros{
             display: flex;
@@ -465,7 +472,7 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            margin-top: 8%;
+            margin-top: 6%;
             align-items: end;
         }
         .ubicontact{
@@ -474,10 +481,14 @@
         }
         .grandcont{
             font-size: 27px;
-            margin-bottom: 2%;
+            margin-bottom: 3%;
         }
         .chicocont{
             font-size: 15px;
+        }
+        .borders{
+            padding-top: 3%;
+            padding-bottom: 3%;
         }
         h1{
             display: flex;
@@ -498,18 +509,22 @@
                 display: flex;
                flex-direction: row;
             }
+            .card1{
+                background-color: $colornav;
+                width: 24%;
+            }
              .card{
                 background-color: $colornav;
-                margin: 19px;
-                width: 60rem;
+                margin: 17px;
+                width: 50%;
              }
              .card p{
-                font-size: 16px;
+                font-size: 14px;
                display: flex;
                flex-direction: row;
              }
              .card:hover{
-                transform: scale(1.1);
+                transform: scale(01.01);
              }
              a{
                 color: #e63a3a;
@@ -519,7 +534,7 @@
                 font-family: "Poetsen One", sans-serif;
                  font-weight: 400;
                 font-style: normal;
-                font-size: 20px;
+                font-size: 16px;
              }
              a:hover{
                 color: brown;
