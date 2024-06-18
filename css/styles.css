@@ -2,7 +2,7 @@
 body {
   color: white;
   background-color: #323131;
-  background-image: url(../assest/Diseño\ sin\ título\ \(1\).png);
+  background-image: url(../assets/Diseño\ sin\ título\ \(1\).png);
   background-size: cover;
 }
 body p {
@@ -748,10 +748,6 @@ footer ion-icon:hover {
   .imgserv {
     display: flex;
     flex-direction: row;
-  }
-  .card1 {
-    background-color: #393939;
-    width: 24%;
   }
   .card {
     background-color: #393939;
