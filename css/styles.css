@@ -256,9 +256,6 @@ footer ion-icon:hover {
 }
 
 @media (min-width: 320px) {
-  .w-50 {
-    width: 93% !important;
-  }
   .imgs img {
     border-radius: 2%;
     margin-bottom: 2%;
@@ -453,16 +450,19 @@ footer ion-icon:hover {
   }
   .grandcont {
     font-size: 25px;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
   }
   .chicocont {
     font-size: 12px;
   }
+  .borders {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }
 @media (min-width: 375px) {
-  .w-50 {
-    width: 95% !important;
-  }
   .imgs img {
     border-radius: 2%;
     margin-bottom: 2%;
@@ -539,9 +539,6 @@ footer ion-icon:hover {
   .imgserv {
     display: flex;
     justify-content: center;
-  }
-  .w-50 {
-    width: 45% !important;
   }
   .imgs img {
     border-radius: 2%;
@@ -728,6 +725,8 @@ footer ion-icon:hover {
   .borders {
     padding-top: 3%;
     padding-bottom: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
   h1 {
     display: flex;
