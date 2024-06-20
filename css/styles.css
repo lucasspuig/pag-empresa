@@ -285,7 +285,7 @@ footer ion-icon:hover {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 13px;
   }
   a:hover {
     color: brown;
@@ -509,11 +509,16 @@ footer ion-icon:hover {
     font-size: 28px;
   }
   .espacioinicio p {
-    display: flex;
-    flex-direction: row;
     margin-bottom: 1%;
-    margin-top: 3%;
-    font-size: 8px;
+    margin-top: 6%;
+    padding-right: 6%;
+    padding-left: 6%;
+    font-size: 11px;
+  }
+  .card {
+    background-color: #393939;
+    margin: 19px;
+    width: 21rem;
   }
   h1 {
     font-family: "Poetsen One", sans-serif;
@@ -527,9 +532,10 @@ footer ion-icon:hover {
     flex-direction: column;
   }
   .inicioft img {
-    width: 80%;
-    height: 300px;
+    width: 90%;
+    height: 310px;
     border-radius: 1%;
+    margin-top: 5%;
   }
   .navbar-toggler {
     font-size: 66%;
