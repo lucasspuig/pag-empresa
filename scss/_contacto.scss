@@ -8,7 +8,7 @@
        justify-content: flex-start;
     }
     .grandcont{
-        font-size: 27px;
+        font-size: 43px;
     }
     .inmensaje{
         margin-top: 20px;
@@ -23,5 +23,20 @@
 
     }
     .chicocont{
-        font-size: 13px;
+        font-size: 20px;
+    }
+    .boxcontacto{
+        display:flex ;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .boxcontacto{
+        background-color: #0006;
+        width: 55%;
+        height: 550px;
+        margin-left: 20%;
+    }
+    form{
+        width: 51%;
+        padding: 20px;
     }
