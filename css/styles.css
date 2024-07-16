@@ -522,7 +522,7 @@ form {
     padding: 14px;
   }
   div textarea {
-    font-size: 5px;
+    font-size: 45%;
   }
 }
 @media (min-width: 375px) {
@@ -604,7 +604,7 @@ form {
     padding-left: 2%;
   }
   div textarea {
-    font-size: 9px;
+    font-size: 45%;
   }
 }
 @media (min-width: 1024px) {
