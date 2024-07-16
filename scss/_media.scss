@@ -15,7 +15,7 @@
     .card{
         background-color: $colornav;
         margin: 19px;
-        width: 18rem;
+        width: 19rem;
      }
      .card:hover{
         transform: scale(1.1);
@@ -34,7 +34,7 @@
         color: brown;
      }
     nav img{
-        width: 25%;
+        width: 25%; 
     }
     ion-icon{
         margin-top: 5%;
@@ -56,6 +56,7 @@
         padding-right: 4%;
         padding-left: 5%;
         font-size: 10px;
+        letter-spacing: 1px;
     }
     h1{
         font-family: "Poetsen One", sans-serif;
@@ -72,7 +73,7 @@
         align-items: center;
     }
     .inicioft img{
-        width: 90%;
+        width: 92%;
         height: 260px;
         border-radius: 2%;
         margin-top: 2%;
@@ -107,7 +108,7 @@
         
         .espacionosotros img{
             width: 98%;
-            height: 250px;
+            height: 260px;
             padding-right: 2%;
             padding-left: 2%;
         }      
@@ -419,8 +420,8 @@
             justify-content: space-evenly;
         }
         .inicioft img{
-        width: 45%;
-        height: 610px;
+        width: 47%;
+        height: 650px;
         border-radius: 1%;
         }
         .inicioft img:hover{
